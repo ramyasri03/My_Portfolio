@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramya N</title>
+    <link rel="icon" href="images/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="portfolio.js"></script>
+</head>
+<body>
+    <!--<div class="backgroundAnim"></div>-->
+    <div class="wrapper">
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+    </div>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <a href="#">RAMYA'S<span>PORTFOLIO</span></a>
+                </div>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skils">Skills</a></li>
+                
+                    <li><a href="#project">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi, I'm <span>Ramya N</span></h1>
+                <p id="demo">I am a <span class="text"></span></p>
+            </div>
+            <div class="social-icons">
+                <ul>
+                    <li class="item">
+                      <a href="https://www.instagram.com/ram_meow_003?igsh=Nnk0cmg4YnhyOHVy" target="_blank">
+                        <i class="fa-brands fa-instagram icon"></i>
+                      </a>
+                    </li>
+                    <li class="item">
+                      <a href="https://www.linkedin.com/in/ramya-n-67b548268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                        <i class="fa-brands fa-linkedin icon"></i>
+                      </a>
+                    </li>
+                    <li class="item">
+                      <a href="https://github.com/ramyasri03" target="_blank">
+                        <i class="fa-brands fa-github icon"></i>
+                      </a>
+                    </li>
+                    <li class="item">
+                      <a href="mailto:ramyasri7373@gmail.com" target="_blank">
+                        <i class="fas fa-paper-plane icon"></i>
+                      </a>
+                    </li>
+                  </ul>
+            </div>
+            <a href="images/RESUME.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/IMG_20190101_170203.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h2 class="sub-title">About<span>Me</span></h2>
+                    <p>I am a student, who have passionate about exploring the latest technologies and developing innovative solutions to complex problems. Self-motivated and hardworking fresher seeking for an opportunity to work in a challenging environment to prove my skills and utilize my knowledge & intelligence in the growth of the organization.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('tools')">Tools</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front-end</span><br><p> - HTML5,CSS3,JavaScript</p></li>
+                            <li><span>Back-end</span><br><p> - Python (Object Oriented Programming), C, MySQL, Django</p></li>
+                            <li><span>Data Science</span><br><p> - NumPy,Pandas,MatPlotlib,SeaBorn,TensorFlow,Machine Learning</p></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="tools">
+                        <ul>
+                            <li><span>GIT & GITHUB</span><br><p> - Version Control System</p></li>
+                            <li><span>Figma</span><br><p> - For create a designs for website and app.</p></li>
+							<li><span>PowerBI</span><br><p> - Used For Analyzing And Visualizng Raw Data To Present Actionable &nbsp;&nbsp;Information.</p></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024</span><br><p> - B.Tech from Anna University,(TRICHY),CGPA-7.9</p></li>
+                            <li><span>2020</span><br><p> - HSC from GGHS School-76%</p></li>
+                            <li><span>2018</span><br><p> - SSLC from GGHS School-91.6%</p></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------------------skills-------------->
+    <h1 class="skill-title" id="skils">My <span>Skills</span></h1>
+   <div class="skills">
+        <div class="container">
+            <div class="row">
+                <div class="skill-left">
+                    <div class="skills-inner">
+                        <div class="professional-skills">
+                            <h3>Technical Skills</h3>
+                            <div class="each-skills">
+                                <div class="candidates">
+                                    <div class="parcial">
+                                        <div class="info">
+                                            <div class="name">Python</div>
+                                            <div class="percentage-num">85%</div>
+                                        </div>
+                                        <div class="progressBar">
+                                            <div class="percentagem" style="width: 85%;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="candidates">
+                                    <div class="parcial">
+                                        <div class="info">
+                                            <div class="name">web development</div>
+                                            <div class="percentage-num">70%</div>
+                                        </div>
+                                        <div class="progressBar">
+                                            <div class="percentagem" style="width: 70%;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="candidates">
+                                    <div class="parcial">
+                                        <div class="info">
+                                            <div class="name">c</div>
+                                            <div class="percentage-num">60%</div>
+                                        </div>
+                                        <div class="progressBar">
+                                            <div class="percentagem" style="width: 60%;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="candidates">
+                                    <div class="parcial">
+                                        <div class="info">
+                                            <div class="name">MySQL</div>
+                                            <div class="percentage-num">70%</div>
+                                        </div>
+                                        <div class="progressBar">
+                                            <div class="percentagem" style="width: 75%;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="candidates">
+                                    <div class="parcial">
+                                        <div class="info">
+                                            <div class="name">Data Science</div>
+                                            <div class="percentage-num">50%</div>
+                                        </div>
+                                        <div class="progressBar">
+                                            <div class="percentagem" style="width: 50%;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-right">
+                    <h1 class="heading1">Professional Skills</h1>
+                    <div class="radial-bars">
+                    <div class="radial-bar">
+                        <svg x="0px" y="0px" viewBox="0 0 200 200">
+                            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                            <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                        </svg>
+                        <div class="percentage">85%</div>
+                        <div class="text-1">Problem Solving</div>
+                    </div>
+                    <div class="radial-bar">
+                        <svg x="0px" y="0px" viewBox="0 0 200 200">
+                            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                            <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+                        </svg>
+                        <div class="percentage">65%</div>
+                        <div class="text-1">Creativity</div>
+                    </div>
+                    <div class="radial-bar">
+                        <svg x="0px" y="0px" viewBox="0 0 200 200">
+                            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                            <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+                        </svg>
+                        <div class="percentage">70%</div>
+                        <div class="text-1">Communication</div>
+                    </div>
+                    <div class="radial-bar">
+                        <svg x="0px" y="0px" viewBox="0 0 200 200">
+                            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                            <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+                        </svg>
+                        <div class="percentage">80%</div>
+                        <div class="text-1">TeamWork</div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </div>
+
+   <!-------------projects------------------->
+
+   <div class="project">
+    <h1 class="skill-titl" id="project">My <span>Experience</span></h1>
+    <div class="project_cards">
+        <div class="project_card">
+            <img src="Images/Project_1.jpg" alt="" />
+            <p>Certificate</p>
+            <div class="layer">
+                <h4>Certificate</h4>
+            <ul >
+                <li>HTML5,CSS3,Javascript<br>- Michegan University</li>
+                <li>Machine Learning with Python <br>- IBM</li>
+                <li>Deep Learning & Neural Network <br>- IBM</li>
+
+            </ul></div>
+        </div>
+        <div class="project_card">
+            <img src="Images/Project_2.jpg" alt="" />
+            <p>Internship</p>
+            <div class="layer">
+                <h4>Intertship</h4>
+            <ul >
+                <li>Web Developmente & Python Developer - OctNet</li>
+                <li>Machine Learning & Python developer - CodeAlpha</li>
+                <li>Data Science - EduTech</li>
+
+            </ul></div>
+        </div>
+        <div class="project_card">
+            <img src="Images/Project_3.jpg" alt="" />
+            <p>Project</p>
+            <div class="layer">
+                <h3>Project</h3>
+            <ul >
+                <li>Online Web Code Editor<br>- using Html,Css,React JS</li>
+                <li>Australia Rain Prediction <br>- Using Numpy,Pandas And Scikit-Learn to Predict Rain</li>
+                <li>Handwritten Digit Prediction <br>- Using Tensorflow and Neural Netwrok To Predict Number</li>
+
+            </ul></div>
+        </div>
+       
+    </div>
+</div>
+
+    <!----------------------contact-------------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact <span>Me</span></h1>
+                    <p><i class="fas fa-paper-plane"></i>ramyasri7373@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>8838664300</p>
+                    <div class="social-icons">
+                        <ul>
+                            <li class="item">
+                              <a href="https://www.instagram.com/ram_meow_003?igsh=Nnk0cmg4YnhyOHVy" target="_blank">
+                                <i class="fa-brands fa-instagram icon"></i>
+                              </a>
+                            </li>
+                            <li class="item">
+                              <a href="https://www.linkedin.com/in/ramya-n-67b548268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                                <i class="fa-brands fa-linkedin icon"></i>
+                              </a>
+                            </li>
+                            <li class="item">
+                              <a href="https://github.com/ramyasri03" target="_blank">
+                                <i class="fa-brands fa-github icon"></i>
+                              </a>
+                            </li>
+                            <li class="item">
+                              <a href="mailto:ramyasri7373@gmail.com" target="_blank">
+                                <i class="fas fa-paper-plane icon"></i>
+                              </a>
+                            </li>
+                          </ul>
+                    </div>
+                    <a href="images/RESUME.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                        <span id="msg"></span>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Developed by <a href="" target="_blank">Ramya N</a> &copy; <span id="year"></span>.</p>
+        </div>
+    </div>
+
+    <script>
+        var typed =new Typed('.text',{
+            strings: ["Student","Programmer","Data Analyst"],
+            typeSpeed:100,
+            backSpeed:100,
+            backDelay:100,
+            loop:true
+        });
+
+        var year = document.getElementById("year");
+        const d = new Date();
+        year.innerHTML= d.getFullYear();
+        console.log(year);
+
+        var tabLinks=document.getElementsByClassName("tab-links");
+        var tabContents=document.getElementsByClassName("tab-contents");
+
+        function openTab(tabName){
+            for(tabLink of tabLinks){
+                tabLink.classList.remove("active-link");
+            }
+            for(tabContent of tabContents){
+                tabContent.classList.remove("active-tab");
+            } 
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabName).classList.add("active-tab");
+        }
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwWkIahppzlVjs6bDUeSXmdxujaSNE_ihaUC7jBQjvqScvZBKnm3zhZtVc7Bm4T6BES/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg");
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent successfully."
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
